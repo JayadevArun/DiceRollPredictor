@@ -51,3 +51,16 @@ if(randomNumber4===6)
 {
     document.querySelector("img.img2").setAttribute("src","./Dicee Challenge - Starting Files/imagesnew/dice6.png");
 }
+
+if(randomNumber2>randomNumber4)
+{
+    document.querySelector("h1").innerHTML="🏆Player 1 WINS";
+}
+if(randomNumber2<randomNumber4)
+{
+    document.querySelector("h1").innerHTML="🏆Player 2 WINS";
+}
+if(randomNumber2===randomNumber4)
+{
+    document.querySelector("h1").innerHTML="DRAW";
+}
