@@ -25,11 +25,17 @@
   p {
     font-size: 2rem;
     color: #4ECCA3;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
   }
   
-  img {
-    width: 80%;
+  .img1 {
+    width: 50%;
+    height: 50%;
+  }
+
+  .img2 {
+    width: 50%;
+    height: 50%;
   }
   
   footer {
